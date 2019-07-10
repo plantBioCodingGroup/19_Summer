@@ -5,10 +5,10 @@
 
 def find_str(keyword, file_name):
   search_file = open (file_name, 'r')
-  count = 0
+  search_str = ''
   for line in search_file:
-    if keyword in line:
-      count += 1
+    search_str += line.strip()
+  count = search_str.count(keyword)
   print (keyword, 'was found', count, 'times.')
 
-find_str('GAT', 'PhiX_genome.fasta')
+find_str('ATCG', 'PhiX_genome.fasta')
