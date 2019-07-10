@@ -1,6 +1,5 @@
 #!/bin/python
-# Description: write a function that searches for a string in a file and tells
-# you if it's there or not.
+# Description: write a function that searches for a string in a file
 # Kenia Segura Aba
 # 06-26-2019
 
